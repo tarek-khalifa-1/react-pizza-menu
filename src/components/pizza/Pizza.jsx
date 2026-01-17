@@ -1,10 +1,11 @@
-function Pizza({ pizza }) {
+function Pizza({ data: pizza }) {
   return (
-    <div className="pizza">
+    <li className="pizza">
       <img src={pizza.photoName} alt={pizza.name} />
       <h3>{pizza.name}</h3>
       <p>{pizza.ingredients}</p>
-    </div>
+      <span>{pizza.price}</span>
+    </li>
   );
 }
 
