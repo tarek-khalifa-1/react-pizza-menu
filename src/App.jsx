@@ -4,11 +4,11 @@ import Menu from "./components/menu/Menu";
 
 function App() {
   return (
-    <>
+    <div className="container">
       <Header />
       <Menu />
       <Footer />
-    </>
+    </div>
   );
 }
 

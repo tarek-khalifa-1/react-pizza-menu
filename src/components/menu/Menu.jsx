@@ -47,11 +47,11 @@ const pizzaData = [
 
 function Menu() {
   return (
-    <div>
+    <main className="menu">
       <h2>Our Menu</h2>
 
       <Pizza pizza={pizzaData[0]} />
-    </div>
+    </main>
   );
 }
 
