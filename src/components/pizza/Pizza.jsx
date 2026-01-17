@@ -1,6 +1,6 @@
 function Pizza({ data: pizza }) {
   return (
-    <li className="pizza">
+    <li className={`pizza ${pizza.soldOut && "sold-out"}`}>
       <img src={pizza.photoName} alt={pizza.name} />
       <h3>{pizza.name}</h3>
       <p>{pizza.ingredients}</p>
